@@ -1,0 +1,19 @@
+{
+    "name": "sexting scan",
+    "description": "Identifica el sexting en una oración",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "sextingIcon.png"
+    },
+    "permissions": [
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    ],
+    "browser_action": {
+        "default_icon": "default.png",
+        "default_title": "Sexting Scan",
+        "default_popup": "alerta.html"
+    },
+    "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net; object-src 'self'"
+
+}
